@@ -1,0 +1,19 @@
+{
+  "name": "rey-common-model",
+  "version": "2.94.7",
+  "description": "common model accross services",
+  "scripts": {
+    "clean-install": "rm -rf node_modules package-lock.json && npm install",
+    "build": "rm -rf ./build && ./node_modules/typescript/bin/tsc",
+    "lint": "eslint './src/**/*.ts' --fix"
+  },
+  "author": "archie isdiningrat",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "~20.3.3",
+    "@typescript-eslint/eslint-plugin": "~4.29.0",
+    "@typescript-eslint/parser": "~4.29.0",
+    "eslint": "~7.32.0",
+    "typescript": "~4.3.2"
+  }
+}
